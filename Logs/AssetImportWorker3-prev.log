@@ -1,0 +1,821 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.49f1 (840e0a9776d9) revision 8654346'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 40881 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Aaron/Documents/UAT Unity Projects/Project 3D
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57434
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Aaron/Documents/UAT Unity Projects/Project 3D
+C:/Users/Aaron/Documents/UAT Unity Projects/Project 3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31544]  Target information:
+
+Player connection [31544]  * "[IP] 192.168.0.31 [Port] 0 [Flags] 2 [Guid] 3476951100 [EditorId] 3476951100 [Version] 1048832 [Id] WindowsEditor(7,EPSILON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.49f1 (840e0a9776d9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Aaron/Documents/UAT Unity Projects/Project 3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004168 seconds.
+- Loaded All Assemblies, in  0.345 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 776ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (434ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.822 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1332ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (516ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3716 unused Assets / (0.9 MB). Loaded Objects now: 4202.
+Memory consumption went from 83.6 MB to 82.7 MB.
+Total: 13.899200 ms (FindLiveObjects: 1.683000 ms CreateObjectMapping: 0.356600 ms MarkObjects: 9.130200 ms  DeleteObjects: 2.726400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3708 unused Assets / (0.9 MB). Loaded Objects now: 4203.
+Memory consumption went from 81.1 MB to 80.2 MB.
+Total: 9.698800 ms (FindLiveObjects: 0.469900 ms CreateObjectMapping: 0.548700 ms MarkObjects: 7.646700 ms  DeleteObjects: 1.032700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3709 unused Assets / (0.7 MB). Loaded Objects now: 4204.
+Memory consumption went from 81.1 MB to 80.4 MB.
+Total: 5.600100 ms (FindLiveObjects: 0.503600 ms CreateObjectMapping: 0.180200 ms MarkObjects: 4.122600 ms  DeleteObjects: 0.793100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3710 unused Assets / (0.8 MB). Loaded Objects now: 4205.
+Memory consumption went from 81.1 MB to 80.3 MB.
+Total: 5.673100 ms (FindLiveObjects: 0.772700 ms CreateObjectMapping: 0.329700 ms MarkObjects: 3.743700 ms  DeleteObjects: 0.826300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3711 unused Assets / (0.8 MB). Loaded Objects now: 4206.
+Memory consumption went from 81.1 MB to 80.4 MB.
+Total: 7.468700 ms (FindLiveObjects: 0.627800 ms CreateObjectMapping: 0.191000 ms MarkObjects: 5.169700 ms  DeleteObjects: 1.478600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.462 seconds
+Domain Reload Profiling: 1149ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3718 unused Assets / (0.8 MB). Loaded Objects now: 4207.
+Memory consumption went from 82.9 MB to 82.0 MB.
+Total: 6.071800 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.457600 ms MarkObjects: 4.245300 ms  DeleteObjects: 0.923000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.689 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (556ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3718 unused Assets / (0.6 MB). Loaded Objects now: 4207.
+Memory consumption went from 82.8 MB to 82.2 MB.
+Total: 5.783700 ms (FindLiveObjects: 0.531100 ms CreateObjectMapping: 0.233700 ms MarkObjects: 4.171800 ms  DeleteObjects: 0.846400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1129ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3718 unused Assets / (0.9 MB). Loaded Objects now: 4207.
+Memory consumption went from 82.8 MB to 81.9 MB.
+Total: 6.101300 ms (FindLiveObjects: 0.517700 ms CreateObjectMapping: 0.265600 ms MarkObjects: 4.165100 ms  DeleteObjects: 1.151800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3711 unused Assets / (0.7 MB). Loaded Objects now: 4207.
+Memory consumption went from 83.0 MB to 82.3 MB.
+Total: 6.577800 ms (FindLiveObjects: 0.496100 ms CreateObjectMapping: 0.171500 ms MarkObjects: 4.630200 ms  DeleteObjects: 1.279200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 1058ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3718 unused Assets / (0.7 MB). Loaded Objects now: 4207.
+Memory consumption went from 82.8 MB to 82.1 MB.
+Total: 5.274700 ms (FindLiveObjects: 0.457700 ms CreateObjectMapping: 0.191900 ms MarkObjects: 3.955000 ms  DeleteObjects: 0.669800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 300666.964962 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbb81087f513bcfed434b3516cf9d149') in 0.15813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Prefabs_SRP/Hurricane_spaceship_SRP_N01_01.prefab
+  artifactKey: Guid(c998b9ca5b879cf418bfddfe2bea25c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Prefabs_SRP/Hurricane_spaceship_SRP_N01_01.prefab using Guid(c998b9ca5b879cf418bfddfe2bea25c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff81108e633666cfca158789ad0dd3a8') in 0.0848612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Vox Files/cutter.vox
+  artifactKey: Guid(a87530ec55cb17e4c9dd10efed42b08a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Vox Files/cutter.vox using Guid(a87530ec55cb17e4c9dd10efed42b08a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64f86c324d37c15fd7fed26a2b853759') in 0.0044457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(55e074919b8a1f943bbe8097676fa982) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/URP/URPDefaultResources/UniversalRenderPipelineAsset_Renderer.asset using Guid(55e074919b8a1f943bbe8097676fa982) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b364ff9d42c22a4d879cf7df5652d6e') in 0.0085076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/The Ram.obj
+  artifactKey: Guid(d65bb6878efa0974baab827957d2937d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/The Ram.obj using Guid(d65bb6878efa0974baab827957d2937d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccc3f3fbca82a350deb4ee6ed4450cf9') in 0.0395855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Materials/Skybox.mat
+  artifactKey: Guid(2d2d556c43a35f8479e31097edd821d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Materials/Skybox.mat using Guid(2d2d556c43a35f8479e31097edd821d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '632c9930082af436ad84c82360900803') in 0.0552772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/flame_eng_mat_HDRP_01.mat
+  artifactKey: Guid(6d52c09ad7295e0419e52dd1e0c6bdc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/flame_eng_mat_HDRP_01.mat using Guid(6d52c09ad7295e0419e52dd1e0c6bdc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd39235984dd3873c2f61903899ce623') in 0.0073233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(090543c89f53bae4aafded116179b498) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(090543c89f53bae4aafded116179b498) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f87db972bff5d49c55e301efa8e3949') in 0.0043245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_HDRP_01.unity
+  artifactKey: Guid(0f69c49ddc63b0c4a969ed6dd96d5688) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_HDRP_01.unity using Guid(0f69c49ddc63b0c4a969ed6dd96d5688) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4aa7f04b2f7e019b396c8e159be9a778') in 0.0040609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Materials/1_up.png
+  artifactKey: Guid(5c06da5d25714f740b672cd49f161762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Materials/1_up.png using Guid(5c06da5d25714f740b672cd49f161762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd6ba43aeaa00246d6a5f9c17a36c5d7') in 0.0442203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Normal_01.png
+  artifactKey: Guid(030536db13fdb1446a69b02124600821) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Normal_01.png using Guid(030536db13fdb1446a69b02124600821) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ab2b189c563fb8e887c0dc8220353b0') in 0.0241494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_MetallicSmoothness_01.png
+  artifactKey: Guid(2afb0bbffc0f0c0428d78c2fb09da506) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_MetallicSmoothness_01.png using Guid(2afb0bbffc0f0c0428d78c2fb09da506) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dd6dcca0c9ee4a2b72631c956ef8dd0') in 0.0199991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Vox Files/The Ram.vox
+  artifactKey: Guid(64e3215bd00d7cf40bda1573d910bafd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Vox Files/The Ram.vox using Guid(64e3215bd00d7cf40bda1573d910bafd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b43b703aa778d7d1c7c7f332aeda064f') in 0.006076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(3c6a1a16c95cbe24e98ad5c0748bccb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(3c6a1a16c95cbe24e98ad5c0748bccb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd30924eeed489cdaddaa3a351589ceff') in 0.0043365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Materials/V-ShooterMat.mat
+  artifactKey: Guid(3e023d17583ab964ebdf2302bdd18d8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Materials/V-ShooterMat.mat using Guid(3e023d17583ab964ebdf2302bdd18d8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4fc14a4caf7cb1b9ae82ba40579de33') in 0.0139695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Materials/1_back.png
+  artifactKey: Guid(b1883dd381c355a4f98d332ea82b6d0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Materials/1_back.png using Guid(b1883dd381c355a4f98d332ea82b6d0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e823bfbf59017e765edf1ac8a9725c71') in 0.027106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_URP_01.unity
+  artifactKey: Guid(f5837a58ba3b4ca4483a3bd518bd167a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/demo_scene/demo_scene_7f_URP_01.unity using Guid(f5837a58ba3b4ca4483a3bd518bd167a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66ed101d1c347ac7f28fe5ec82c62806') in 0.0069601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Prefabs/Beamer.prefab
+  artifactKey: Guid(76fe3eaa84976a3478db55c5c98c9381) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Prefabs/Beamer.prefab using Guid(76fe3eaa84976a3478db55c5c98c9381) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5eda43f6d7dc5f45a2b270fedc2a82b') in 0.0108455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Materials/The_RamMat.mat
+  artifactKey: Guid(5f33cc19a4f49394ebf5a532d14eb900) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Materials/The_RamMat.mat using Guid(5f33cc19a4f49394ebf5a532d14eb900) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fcbc8e7b9b371147b454c94c658abf8') in 0.0110116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Materials/1_front.png
+  artifactKey: Guid(38e4003cc10205847964246e9310d74f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Materials/1_front.png using Guid(38e4003cc10205847964246e9310d74f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfd950a6536e89f4f019188330778042') in 0.0197541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scripts/BulletShooter.cs
+  artifactKey: Guid(21f4848c51204ef499a920e289e912a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/BulletShooter.cs using Guid(21f4848c51204ef499a920e289e912a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d5432b955bdd1a80973bfb26149496c') in 0.0111573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Prefabs/V-Shooter.prefab
+  artifactKey: Guid(874f0f7786520da48be2db3319304ec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Prefabs/V-Shooter.prefab using Guid(874f0f7786520da48be2db3319304ec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c0f6d0630720bb9b363c5223161652d') in 0.0110906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Vox Files/Swirler.vox
+  artifactKey: Guid(ce56ed5e874e9bc409b37ac260bf10e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Vox Files/Swirler.vox using Guid(ce56ed5e874e9bc409b37ac260bf10e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '888c59afe3c5d701c843806f06a174f8') in 0.0050286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Scripts/Shooter.cs
+  artifactKey: Guid(92af7d54cdd3cf44b9f6e4d71d602935) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Shooter.cs using Guid(92af7d54cdd3cf44b9f6e4d71d602935) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7accb79c017947f72582501a82f8206c') in 0.0078995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_N01_01_env_01_low.fbx
+  artifactKey: Guid(a3e590ff2caa1f64faa9b52ae21846e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_N01_01_env_01_low.fbx using Guid(a3e590ff2caa1f64faa9b52ae21846e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ece416c06ff97c5ef5c71e06f9b40ccc') in 0.0336137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Beamer.obj
+  artifactKey: Guid(23f6e55c5483e084c8d53ebd8830b051) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Beamer.obj using Guid(23f6e55c5483e084c8d53ebd8830b051) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f76a7b5dc24061f04364be7b85b63c0') in 0.0072861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Vox Files/Skimmer.vox
+  artifactKey: Guid(75f7b3eabb218ca40a3ac03459f49f52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Vox Files/Skimmer.vox using Guid(75f7b3eabb218ca40a3ac03459f49f52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '849034e935859023bbd75804203f276d') in 0.0047495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Cutter.obj
+  artifactKey: Guid(6730a2e9764c3704db4f60651f1aa6ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Cutter.obj using Guid(6730a2e9764c3704db4f60651f1aa6ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a3874d45221a52e47d9357a2add46fd') in 0.0088827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AlbedoTransparency_01.png
+  artifactKey: Guid(fded254901bf0114490975f5c895ab73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AlbedoTransparency_01.png using Guid(fded254901bf0114490975f5c895ab73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6792603fefa698c8fe01b9425b21c588') in 0.0131566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/flame_eng_mat_URP_01.mat
+  artifactKey: Guid(1736072eb47745d41bd98a7bc523dbc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/flame_eng_mat_URP_01.mat using Guid(1736072eb47745d41bd98a7bc523dbc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3e21ea96d0b3d877020625338ff727d') in 0.0063022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Scout.obj
+  artifactKey: Guid(a0d3cb4af51614f488da94f77347ecc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Scout.obj using Guid(a0d3cb4af51614f488da94f77347ecc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8132645e29110816ae9b538fd8b7752f') in 0.0167171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Materials/Tri-ShotMat.mat
+  artifactKey: Guid(438b0070c9bb0de43aed5720f212abe6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Materials/Tri-ShotMat.mat using Guid(438b0070c9bb0de43aed5720f212abe6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dec2fe389a84f9cd699d7aa4cd47cb6f') in 0.0098378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scripts/PlayerPawn.cs
+  artifactKey: Guid(d70a32ec63c14a34585bc24476b2f4f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerPawn.cs using Guid(d70a32ec63c14a34585bc24476b2f4f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38f0b1635dd4bb3a4a5447f819e89350') in 0.006239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Prefabs/The Ram.prefab
+  artifactKey: Guid(7bfb61b947d96e54a8e56025e0439b43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Prefabs/The Ram.prefab using Guid(7bfb61b947d96e54a8e56025e0439b43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b0aa1f2ae92f8565a287afe541eb906') in 0.0065629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP/Hurricane_spaceship_mat_SRP_N01.mat
+  artifactKey: Guid(5fe0fe7df35a79a469f31dad680af4b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Build_in_RP/Materials_SRP/Hurricane_spaceship_mat_SRP_N01.mat using Guid(5fe0fe7df35a79a469f31dad680af4b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f26c1a1a01e5301b42891779d5d6940') in 0.1102936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/Hurricane_spaceship_mat_URP_N01.mat
+  artifactKey: Guid(aaa5889b8a43043409a3e21efd3a51ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/URP/Materials_URP/Hurricane_spaceship_mat_URP_N01.mat using Guid(aaa5889b8a43043409a3e21efd3a51ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f28a880b05d3818e32ab7d546080d75') in 0.0086536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Tri-Shot.obj
+  artifactKey: Guid(a921edb48b3bbe84680ba944e248a06a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Tri-Shot.obj using Guid(a921edb48b3bbe84680ba944e248a06a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8150abeb70924f05002a30ec2262d129') in 0.0139972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(fceb1dbb4402f5e4dbdfb54183bc57e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(fceb1dbb4402f5e4dbdfb54183bc57e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd02a31d9e768e252323f154c61e5540') in 0.0058108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Vox Files/Tri-Shot.vox
+  artifactKey: Guid(54d90d9a3f081044a8d398c198348763) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Vox Files/Tri-Shot.vox using Guid(54d90d9a3f081044a8d398c198348763) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '055b9a28e445307c4481b4d0af97c331') in 0.0057313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AO_01.png
+  artifactKey: Guid(a19a330648c4ca94ab46ec2d4515de16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_AO_01.png using Guid(a19a330648c4ca94ab46ec2d4515de16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '092e62c5c3811d42438f0099a9ef33cc') in 0.013699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/Hurricane_spaceship_mat_HDRP_N01_MaskMap.png
+  artifactKey: Guid(0a6fba7fb9ea9204597539a30f22d22e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/Materials_HDRP/Hurricane_spaceship_mat_HDRP_N01_MaskMap.png using Guid(0a6fba7fb9ea9204597539a30f22d22e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28928a509613cd746b23871e23d33814') in 0.0167013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(6f5c8a1d3ae39ba4b99105cc84cd295c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(6f5c8a1d3ae39ba4b99105cc84cd295c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df8c6f1bd6afd4ca7189dc6d992bfa7e') in 0.0072656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Prefabs/Scout.prefab
+  artifactKey: Guid(af8a9b7753c023445a5c2f616335c2c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Prefabs/Scout.prefab using Guid(af8a9b7753c023445a5c2f616335c2c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee92bd3e5afac8b88b66b460feff3b6f') in 0.0074511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Prefabs/Skimmer.prefab
+  artifactKey: Guid(16da7ff10d66fac4aa63dc9c0340af17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Prefabs/Skimmer.prefab using Guid(16da7ff10d66fac4aa63dc9c0340af17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b601865fdc2ec7115818e80642d530aa') in 0.0070653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/ADI/Voxel Ships/demoScene.unity
+  artifactKey: Guid(b67165306c390954f8526d4d3da6229a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/demoScene.unity using Guid(b67165306c390954f8526d4d3da6229a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51f6d0831ed783ae94c91509ee56213b') in 0.0061862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Emission_01.png
+  artifactKey: Guid(ea4baa6837d5b634d9e29fcfe1afe1f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Textures/Hurricane_spaceship_N01/ship_N01_Emission_01.png using Guid(ea4baa6837d5b634d9e29fcfe1afe1f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61bcd6e83dfa6bd7f7509e988db10181') in 0.0100826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/ADI/Voxel Ships/Models/Materials/ScoutMat.mat
+  artifactKey: Guid(f635a6c84d656744a8a39af88f0907f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/ADI/Voxel Ships/Models/Materials/ScoutMat.mat using Guid(f635a6c84d656744a8a39af88f0907f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc81d1539943ac72bc48918fe47c91d6') in 0.0081846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_geom_N01_01.fbx
+  artifactKey: Guid(ecb89cd0762184b4eaabf447358c5057) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/3D_Sci-fi_Spaceships_edit_Pack07f/Meshes/Hurricane_spaceship_N01/Hurricane_spaceship_geom_N01_01.fbx using Guid(ecb89cd0762184b4eaabf447358c5057) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '369b1bbef39b54a257d9f049e447ea80') in 0.033296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
